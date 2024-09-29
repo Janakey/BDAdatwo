@@ -1,6 +1,5 @@
-# Self-Organizing Map for Customer Segmentation
-
-## About the Dataset
+ Self-Organizing Map for Customer Segmentation
+About the Dataset
 The dataset contains customer information from a shopping mall. The fields include:
 - Age
 - Gender
@@ -8,28 +7,18 @@ The dataset contains customer information from a shopping mall. The fields inclu
 - Spending Score (1-100)
 
 We use this data to cluster customers based on their annual income and spending score using a Self-Organizing Map (SOM).
-
-## How to Execute
-
-### Software Requirements
+ How to Execute
+ Software Requirements
 - Python 3.x
 - Libraries: `numpy`, `pandas`, `matplotlib`, `minisom`
-
-### Hardware Requirements
+ Hardware Requirements
 - At least 8GB of RAM.
 - Multi-core CPU recommended for faster training.
-
-### Instructions
+Instructions
 1. Clone this repository.
 2. Install the necessary libraries using the following command:
-    ```bash
     pip install -r requirements.txt
-    ```
 3. Run the script:
-    ```bash
-    python som_customer_segmentation.py
-    ```
+    python som.ipynb
 4. The results will be visualized as a SOM heatmap with customer clusters.
-
-## Executable
-The file `som_customer_segmentation.py` contains the implementation of the Self-Organizing Map. You can execute this file directly after setting up the environment.
+The file `som.py` contains the implementation of the Self-Organizing Map. You can execute this file directly after setting up the environment.
